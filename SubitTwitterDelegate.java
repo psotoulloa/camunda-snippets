@@ -11,7 +11,7 @@ import twitter4j.TwitterFactory;
 
 public class SubirTwitterDelegate implements JavaDelegate {
 
-  private final static Logger LOGGER = Logger.getLogger("LOAN-REQUESTS");
+  private final static Logger LOGGER = Logger.getLogger("TWITTER");
 
   public void execute(DelegateExecution execution) throws Exception {
     LOGGER.info("Subiendo a twitter '"+execution.getVariable("texto").toString()+"'");
